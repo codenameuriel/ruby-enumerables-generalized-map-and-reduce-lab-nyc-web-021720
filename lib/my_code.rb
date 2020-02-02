@@ -1,13 +1,13 @@
 # Your Code Here
 
 def map(source_array)
-  squared_array = []
+  new_array = []
   array_index = 0 
   while array_index < source_array.length do 
-    squared_array << yield(source_array[array_index])
+    new_array << yield(source_array[array_index])
     array_index += 1 
   end
-  return squared_array
+  return new_array
 end
 
 
