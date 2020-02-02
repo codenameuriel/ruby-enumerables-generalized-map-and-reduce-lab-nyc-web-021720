@@ -22,6 +22,8 @@ def reduce(source_array, starting_point = 0)
   return total
 end
 
+
+
 # def reduce(array, sv = nil)
 #     if sv
 #         sum = sv 
